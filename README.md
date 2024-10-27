@@ -13,3 +13,11 @@ Certifique-se de ter as ferramentas necessárias instaladas:
 7. **Importante**: Caso deseje rodar o projeto em Debug, certifique-se de alterar as chaves/parâmetros das API's respectivas utilizadas. Vá até o arquivo ```KeysOrParams.dart``` e substitua os valores de ```OPEN_WEATHER_API_KEY``` e ```GEONAMES_API_USERNAME```
 8. **Importante**: Altere a chave de API do Google Maps no arquivo ```AndroidManifest.xml```, na Tag ```<meta-data android:name="com.google.android.geo API_KEY" android:value="YOUR_GOOGLE_MAPS_API_KEY"/>```
 9. API's Utilizadas: ```https://api.openweathermap.org/data/3.0/onecall```, ```http://api.geonames.org/findNearbyPlaceNameJSON``` e ```Google Maps API```
+
+
+
+**Algumas Considerações**
+
+# Offline-First
+Como o aplicativo tem como intuíto ser Offline-First, eu utilizei um arquivo JSON com todas as cidades e suas respectivas localizações, criado a partir de: https://github.com/alanwillms/geoinfo/blob/master/latitude-longitude-cidades.csv
+O mesmo vale para os ícones mostrados no Carrossel com a previsão do tempo para os próximos 10 dias: https://github.com/rodrigokamada/openweathermap
