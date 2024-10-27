@@ -1,0 +1,49 @@
+name: bemagro_weather
+description: "BemAgro S.A Flutter Challenge [ Weather App ]"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  sqflite: ^2.4.0
+  path: ^1.9.1
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+  intl: ^0.19.0
+  carousel_slider: ^5.0.0
+  google_maps_flutter: ^2.9.0
+  auto_size_text: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/data/
+    - assets/icons/
+    - assets/open_weather_icons/
+  fonts:
+    - family: Nothing
+      fonts: 
+        - asset: assets/fonts/nothing.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter18Regular.ttf
+        - asset: assets/fonts/Inter24Regular.ttf
+        - asset: assets/fonts/Inter28Regular.ttf
+        - asset: assets/fonts/Inter18Bold.ttf
+        - asset: assets/fonts/Inter24Bold.ttf
+        - asset: assets/fonts/Inter28Bold.ttf

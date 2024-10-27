@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    always_declare_return_types: true
+    avoid_void_async: true
+    no_leading_underscores_for_local_identifiers: true
+    always_use_package_imports: true
+    await_only_futures: true
+    prefer_interpolation_to_compose_strings: true
+    constant_identifier_names: false
+    non_constant_identifier_names: false
+    file_names: false
+    avoid_print: false
