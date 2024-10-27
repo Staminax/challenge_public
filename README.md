@@ -21,3 +21,5 @@ Certifique-se de ter as ferramentas necessárias instaladas:
 # Offline-First
 1. Como o aplicativo tem como intuíto ser Offline-First, eu utilizei um arquivo JSON com todas as cidades e suas respectivas localizações, criado a partir de: https://github.com/alanwillms/geoinfo/blob/master/latitude-longitude-cidades.csv
 2. O mesmo vale para os ícones mostrados no Carrossel com a previsão do tempo para os próximos 10 dias: https://github.com/rodrigokamada/openweathermap
+3. Essa é uma branch de ```release```, portanto só é possível visualizar o commit de geração da branch. Eu utilizei uma branch privada para o desenvolvimento.
+   3.1 Caso desejem visualizar meus commits, por favor entre em contato para que eu possa garantir acesso ao repositório privado.
