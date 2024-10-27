@@ -19,5 +19,5 @@ Certifique-se de ter as ferramentas necessárias instaladas:
 **Algumas Considerações**
 
 # Offline-First
-Como o aplicativo tem como intuíto ser Offline-First, eu utilizei um arquivo JSON com todas as cidades e suas respectivas localizações, criado a partir de: https://github.com/alanwillms/geoinfo/blob/master/latitude-longitude-cidades.csv
-O mesmo vale para os ícones mostrados no Carrossel com a previsão do tempo para os próximos 10 dias: https://github.com/rodrigokamada/openweathermap
+1. Como o aplicativo tem como intuíto ser Offline-First, eu utilizei um arquivo JSON com todas as cidades e suas respectivas localizações, criado a partir de: https://github.com/alanwillms/geoinfo/blob/master/latitude-longitude-cidades.csv
+2. O mesmo vale para os ícones mostrados no Carrossel com a previsão do tempo para os próximos 10 dias: https://github.com/rodrigokamada/openweathermap
